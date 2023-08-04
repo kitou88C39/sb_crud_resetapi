@@ -1,4 +1,4 @@
-package com.example.CRUD.Rest.API;
+package com.example.CRUD;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CrudRestApiApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Hello World!");
 		SpringApplication.run(CrudRestApiApplication.class, args);
 	}
 
