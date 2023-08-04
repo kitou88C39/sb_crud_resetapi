@@ -13,8 +13,8 @@ public class User {
     @Column(name = "name")
     private String name;
 
-    @Column(mail = "mail")
-    private String mail;
+    @Column(email = "email")
+    private String email;
 
     public Long getId() {
         return id;
