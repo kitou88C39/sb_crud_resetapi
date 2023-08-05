@@ -7,13 +7,13 @@ import jakarta.persistence.*;
 public class User {
 
     @Id
-    @GeneratedValue(strategy = GeneratetionType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Column(name = "name")
     private String name;
 
-    @Column(email = "email")
+    @Column(name = "email")
     private String email;
 
     public Long getId() {
@@ -24,7 +24,7 @@ public class User {
         this.id = id;
     }
 
-    public void getName() {
+    public String getName() {
         return name;
     }
 
@@ -32,7 +32,7 @@ public class User {
         this.name = name;
     }
 
-    public void getEmail() {
+    public String getEmail() {
         return email;
     }
 
